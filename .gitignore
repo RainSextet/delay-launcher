@@ -1,0 +1,20 @@
+# Build output (published as a GitHub Release asset)
+/DelayLauncher.exe
+
+# Signing secrets (never commit private keys)
+*.pfx
+*.p12
+*.snk
+*.key
+*.pem
+
+# Local settings and logs
+settings.ini
+*.log
+
+# Visual Studio / build caches
+.vs/
+bin/
+obj/
+*.user
+*.suo
